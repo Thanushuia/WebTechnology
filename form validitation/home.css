@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+        box-sizing: border-box;
+    }
+
+body {
+    font-family: sans-serif;
+    background-image: url('BD_IMG.jpj.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.menu_bar{
+    background-color: whitesmoke;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo{
+    margin-left: -50px;
+    color: black;
+    font-size: 50px;
+}
+
+.logo span{
+    color: blue;
+}
+
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu_bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu_bar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+
+    transition: all 0.3s;
+}
+
+.menu_bar ul li a:hover{
+    color: blue;
+}
+
+.dropdown_menu{
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: whitesmoke;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+
+.Img{
+    width: 400px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left:10%
+}
+
+.sc {
+    padding-top: 0px;
+    margin-left: 90%;
+    margin-right: 10px;
+    margin-top: 100px;
+   
+}
+
+.sc p{
+    margin-top: 100%;
+    color: whitesmoke;
+}
+
+.sc a{
+    
+    margin-right: 10px;
+}
+
+.sc img{
+    margin-top: 80px;
+    width:35px;
+}
+
+.w{
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-bottom: 15%;
+    color: whitesmoke;
+    font-size:30px;
+
+}
+
+.s{
+   
+    color: whitesmoke;
+}
+
+.f{
+    color: yellow;
+}

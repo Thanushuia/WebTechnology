@@ -1,0 +1,246 @@
+
+body{
+   
+    background-image: url('BD_IMG.jpj.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.box{
+    width: 380px;
+    height: 420px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10%;
+    margin-left: 40%;
+    background: #1c1c1c;
+
+}
+
+.box::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff,#45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+
+.line{
+    margin-bottom: 0%;
+    color: whitesmoke;
+}
+
+.box::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff,#45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.form{
+    position: absolute;
+    inset: 2px;
+    background: #28292d;
+    z-index: 10;
+}
+
+.l{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40%;
+    font-size: 30px;
+    background: transparent;
+    border: 0;
+    color: whitesmoke;
+    position: relative;
+    outline: none;
+}
+
+
+.in-g{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    margin-top: -15%;
+    transition: .5s;
+}
+
+.in-f1{
+    width: 330px;
+    padding: 10px 0;
+    border: none;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    margin-top: -90%;
+    margin-left: 25px;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: rgb(236, 236, 236);
+}
+
+.in-f2{
+    width: 330px;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: rgb(236, 236, 236);
+}
+
+.sub{
+    width: 100px;
+    color: whitesmoke;
+    height: 45px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px 0 rgba(27, 169, 76,0.5);
+    display: block;
+    outline: none;
+    border: 0;
+    margin-top: 40%;
+    margin-left: 250px;
+    background: #1BA94C;
+}
+
+.in-g span{
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.sub:hover{
+    opacity: 80%;
+}
+
+.check{
+    margin: 30px 10px 30px 0;
+    border: none;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    border-radius: 0px;
+    margin-left: 25px;
+    box-shadow: inset; 
+    align-items: inherit;
+    background-color: whitesmoke;
+}
+
+span{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px 10px 30px 0;
+    font-size: 100px;
+    font-size: 14px;
+    position: absolute;
+}
+
+.border{
+    position: absolute;
+    top: 0;
+    inset: 0;
+}
+
+.adj{
+    font-size: 50px;
+    margin-top: 8px;
+}
+
+.fg{
+    padding-top: 35px;
+}
+.fg a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 40px;
+    
+}
+
+.fg a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sg{
+    margin-top: 10px;
+    padding-top: -20px;
+    padding-right: -50px;
+}
+.sg a{
+    color: rgb(216, 153, 153);
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.sg a:hover{
+    text-decoration: underline;
+}
+
+.in-g img{
+
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: -90px;
+}
+.google{
+    margin-top: 300%;
+}
+
+
+/*.border::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,#ff2770,#ff2770,#ff2770);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -1.5s;
+}
+
+.border::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,#ff2770,#ff2770,#ff2770);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -4.5s;
+}
+*/

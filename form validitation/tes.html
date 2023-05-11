@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Mouse_Event_Listener</title>
+	
+	<script type = "text/javascript">
+	
+	function start()
+	{
+	document.getElementById("move").addEventListener("mousemove", moveone, false );
+	document.getElementById("move").addEventListener("mouseout", leaveone, false );
+	}
+	
+	function moveone()
+	{
+	document.getElementById("move").innerHTML ="Kongu Engineering College";
+	}
+
+	function leaveone()
+	{
+	document.getElementById("move").innerHTML ="KEC";
+	}
+	window.addEventListener( "load", start, false );
+</script>
+</head>
+<body>
+<p  id ="move"> KEC </p> 
+
+</body>
+
+
+	 
+ </html>
